@@ -81,6 +81,8 @@ input[type="text"]{
 .ul_container{
     max-height: 50vh;
     overflow-y: scroll;
+    padding: 1rem;
+    
 }
 .added_items{
     list-style-type: none;
@@ -89,8 +91,7 @@ input[type="text"]{
     gap: 3vh;
 }
 .item{
-    width: 80vw;
-    height: auto;
+    width: 75vw;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
     align-items:center;
